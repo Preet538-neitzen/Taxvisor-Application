@@ -45,6 +45,7 @@ Invoices show the total number of invoices sent by the user to different people.
 - After signing up on the platform, the user has to verify the credentials before accessing any tools and services. 
 
 ## Screenshots
+[![Main.jpg](https://i.postimg.cc/D0h50tyG/Main.jpg)](https://postimg.cc/jw8yk3fq)
 
 ![Login](https://postimg.cc/jw8yk3fq)
 
