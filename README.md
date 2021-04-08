@@ -1,68 +1,86 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+                                                  Inventory Management Web
+Repository for the Unicode 2019 - 2020 project Inventory Management.
+File Structure
+.
+├── README.md
+├── src/ -> Django workspace
+├── client -> React app for web dashboard
+└── requirements.txt
+Technology Stack
+Backend
+Django 2.2+ (Python 3.6+)
+Frontend
+React 16.6+
+Features
+SignUp and Authentication
+Signup is defined in such a way that only the owner/manager can add new employees. This can be done in the Employees section of the web-app. It requires first and last name of the employee, their email, age, gender and password to facilitate their login.
 
-## Available Scripts
+Graphs
+Graphs showing the sales over time, sales per product, profit earned and money spent are visisble on homepage. This gives the owner a good overview of the sales and helps him decide further sales and marketing strategies.
 
-In the project directory, you can run:
+Inventory and Expiry tabs
+In the Inventory tab, the user can check all products present in the shop, their respective quantity and their price in an elegant tabular format.The Product fields like Selling price, name and the limits can also be updated here.
 
-### `yarn start`
+In the Expiry tab, the user can also see the products which are going to expire within 3 days and thus, help the user take necessary action and avoid unnecessary losses.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Transactions and Transaction History
+In the Transactions tab, the user can create entries for buying products for the shop and selling products to the customer.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+The id, Product transacted, Number of items, their price and the type of Transaction(Buy/Sell) are displayed in the Transaction History tab.
 
-### `yarn test`
+Screenshots
+Login
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Graphs
 
-### `yarn build`
+Inventory
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Expiry
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Employee
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Transaction
 
-### `yarn eject`
+Team
+Developers
+Aryan Chouhan
+Apoorva Ambulgekar
+Govind Thakur
+Sheel Sanghvi
+Jenish Hirpara
+Preet Sanghavi
+Punit Lodha
+Mentors
+Ankit Gupta
+Nirav Jain
+Chinmay Khamkar
+Dhyey Thummar
+Jay Gala
+Aditya Jeswani
+Fenil Doshi
+Build Instructions
+Backend
+  pip3 install -r requirements.txt
+  cd src
+  python3 manage.py makemigrations
+  python3 manage.py migrate
+  python3 manage.py runserver
+Frontend
+  cd client
+  npm install
+  npm start
+Development Instructions
+We have configured the precommit hook for frontend following the eslint airbnb guidelines along with prettier code formatting. So make sure to follow the above guideline otherwise code will not be commited.
+We are using flake8 for backend.
+The database we are using is sqlite3 for the prototype.
+Please follow the directory structure for React JS.
+LICENSE
+MIT License
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Copyright (c) 2020 Unicode
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWA
