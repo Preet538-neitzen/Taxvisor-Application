@@ -47,15 +47,17 @@ Invoices show the total number of invoices sent by the user to different people.
 ## Screenshots
 [![Main.jpg](https://i.postimg.cc/D0h50tyG/Main.jpg)](https://postimg.cc/jw8yk3fq)
 
-![Login](https://postimg.cc/jw8yk3fq)
+[![SignUp.jpg](https://i.postimg.cc/sfJ4KHgn/SignUp.jpg)](https://postimg.cc/mht9gwMM)
 
-![SignUp](https://user-images.githubusercontent.com/48253287/89116464-fd2b6180-d4b1-11ea-812f-d8b8554663b7.png)
+[![SignUp2.jpg](https://i.postimg.cc/nhXKFHY5/SignUp2.jpg)](https://postimg.cc/qNd6QHFX)
 
-![Dashboard](https://user-images.githubusercontent.com/48253287/89116459-f997da80-d4b1-11ea-9f6c-684d86384b7c.png)
+[![Login.jpg](https://i.postimg.cc/HnW5fHk6/Login.jpg)](https://postimg.cc/gX5nZCRh)
 
-![Create Invoice](https://user-images.githubusercontent.com/48253287/89116460-fac90780-d4b1-11ea-9362-08aa049206bf.png)
+[![Dashboard.jpg](https://i.postimg.cc/Y0Xg7V4M/Dashboard.jpg)](https://postimg.cc/JHktcpc2)
 
-![View Invoices](https://user-images.githubusercontent.com/48253287/89116461-fb619e00-d4b1-11ea-866d-9a58076ec773.png)
+[![Add.jpg](https://i.postimg.cc/25pWCn5b/Add.jpg)](https://postimg.cc/PC4J4pYT)
+
+[![View.jpg](https://i.postimg.cc/9Xxqr6Mj/View.jpg)](https://postimg.cc/Z0dqQDpf)
 
 
 
